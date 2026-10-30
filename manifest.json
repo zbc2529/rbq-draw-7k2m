@@ -1,0 +1,17 @@
+{
+  "display_name": "RBQ生图扩展 (本地版)",
+  "loading_order": 55,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "TTWParty",
+  "version": "0.3.124-local.1",
+  "homePage": "https://github.com/zbc2529/rbq-draw-7k2m",
+  "auto_update": false,
+  "description": "从聊天中提取提示词，并调用 ComfyUI、NAI 或其他渠道进行生图。",
+  "changelog": "本地版：子插件源地址持久化 + 自定义源通道 + 手机端布局换行",
+  "changelogs": {
+    "0.3.124-local.1": "本地补丁（基于官方 0.3.124）：\n— 【子插件源持久化】仓库源地址写入酒馆设置 _pluginRepoUrl，重开面板、刷新页面都不再丢失，自动更新也按这份地址走，不再回退官方源\n— 【自定义源通道】通道下拉新增「⚙️ 自定义源（自动保存）」，手填地址即时保存\n— 【手机端适配】源地址行允许换行，输入框最小宽度 220px，窄屏下不再被挤压到不可点击\n— 其余功能与官方 0.3.124 完全一致"
+  }
+}
